@@ -12,4 +12,9 @@ func main() {
 	for llave, valor := range usuarios {
 		fmt.Println(llave, valor)
 	}
+	for i := 0; i < 100; i++ {
+		if i%2 == 0 {
+			fmt.Println(i)
+		}
+	}
 }
